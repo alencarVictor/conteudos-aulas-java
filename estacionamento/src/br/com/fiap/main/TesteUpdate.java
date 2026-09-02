@@ -11,7 +11,7 @@ public class TesteUpdate {
         Connection con = ConnectionFactory.abrirConexao();
 
         Carro carro = new Carro();
-        carro.setPlaca("JKK1901");
+        carro.setPlaca("JKK1900");
         carro.setCor("Amarelo");
         carro.setDescricao("Camaro");
 

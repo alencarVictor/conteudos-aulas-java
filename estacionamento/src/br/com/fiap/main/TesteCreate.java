@@ -12,9 +12,9 @@ public class TesteCreate {
         Connection con = ConnectionFactory.abrirConexao();
 
         Carro carro = new Carro();
-        carro.setPlaca("JKK1900");
-        carro.setCor("Vermelho");
-        carro.setDescricao("Nissan Kicks");
+        carro.setPlaca("FIAP015");
+        carro.setCor("Cinza");
+        carro.setDescricao("Mercedes");
 
         CarroDAO carroDAO = new CarroDAO(con);
         System.out.println(carroDAO.inserir(carro));
