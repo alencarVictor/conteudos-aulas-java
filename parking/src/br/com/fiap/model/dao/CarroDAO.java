@@ -1,5 +1,6 @@
 package br.com.fiap.model.dao;
 
+import br.com.fiap.model.Interfaces.IDAO;
 import br.com.fiap.model.dto.Carro;
 
 import java.sql.Connection;
@@ -8,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class CarroDAO {
+public class CarroDAO implements IDAO {
     //import
     private Connection con;
     private  Carro carro;
